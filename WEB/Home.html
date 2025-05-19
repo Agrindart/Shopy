@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Buscar producto...">
+      <button id="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="nav-links">
+      <a href="Index.html" class="nav-link"><i class="fas fa-user"></i> Inicio</a>
+      <a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> Acerca de nosotros</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner superior -->
+  <div class="banner">
+    <img src="IMG/BannerHome.png" alt="Banner de la tienda">
+  </div>
+
+
+  <main class="main-content" style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px; padding: 20px;">
+
+    <section class="user-card">
+      <div style="text-align: center;">
+        <img id="fotoPerfil" src="https://via.placeholder.com/150" alt="Foto de perfil">
+        <input type="file" id="inputFoto" accept="image/*">
+      </div>
+
+      <form id="formUsuario">
+      <div class="user-info">
+         <strong>Usuario:</strong> <span id="usuarioLabel"></span>
+      </div>
+        <div class="user-info">
+            <strong>Correo:</strong> <span id="emailLabel"></span>
+        </div>
+
+          <label for="nombreInput">Nombre:</label>
+              <input type="text" id="nombreInput"><br>
+
+          <label for="paisInput">País:</label>
+              <input type="text" id="paisInput"><br>
+
+          <label for="estadoInput">Estado:</label>
+              <input type="text" id="estadoInput"><br>
+
+          <label for="ciudadInput">Ciudad:</label>
+              <input type="text" id="ciudadInput"><br>
+
+          <label for="direccionInput">Dirección:</label>
+              <input type="text" id="direccionInput"><br>
+
+          <label for="cpInput">Código Postal:</label>
+              <input type="text" id="cpInput"><br>
+
+          <label for="telefonoInput">Teléfono:</label>
+              <input type="text" id="telefonoInput"><br>
+
+            <button type="submit">Guardar cambios</button>
+         </form>
+    </section>
+
+    <!-- Pestañas -->
+    <section style="grid-column: span 1; border: 1px solid #ddd; border-radius: 10px; min-height: 400px; background-color: #f9f9f9;">
+      <div class="tabs">
+        <div class="tab active" data-tab="tienda">Tienda</div>
+        <div class="tab" data-tab="carrito">Carrito</div>
+        <div class="tab" data-tab="vender">Vender</div>
+        <div class="tab" data-tab="misventas">Mis Ventas</div>
+        <div class="tab" data-tab="usuarios">Usuarios</div>
+      </div>
+      
+    
+      <div id="tienda" class="tab-content active">
+  <div class="search-bar-container">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Buscar productos...">
+      <button id="searchBtn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="filters">
+      <button class="filter-btn" data-filter="recent">Reciente</button>
+      <button class="filter-btn" data-filter="price-high">Mayor $</button>
+      <button class="filter-btn" data-filter="price-low">Menor $</button>
+    </div>
+  </div>
+  
+  <div class="products-grid" id="productsContainer">
+    <!-- Los productos se cargan aqui -->
+  </div>
+  
+  <div class="pagination" id="pagination">
+    <!-- La paginación se generara aqui -->
+  </div>
+</div>
+      
+      <!-- Carrito -->
+      <div id="carrito" class="tab-content">
+        <div class="cart-items" id="cartItems">
+        </div>
+        
+        <div class="cart-total">
+          Total a pagar: <span id="cartTotal">$0.00</span>
+        </div>
+        
+        <button class="checkout-btn">Procesar pago</button>
+      </div>
+      
+      <!-- Vender -->
+      <div id="vender" class="tab-content">
+        <form class="sell-form" id="sellForm">
+          <input type="text" id="productName" placeholder="Nombre del producto (máx. 30 caracteres)" maxlength="30" required>
+          <textarea id="productDescription" placeholder="Descripción (máx. 500 caracteres)" maxlength="500" required></textarea>
+          <input type="text" id="productImage" placeholder="URL de la imagen" required>
+          <input type="number" id="productPrice" placeholder="Precio" min="0" step="0.01" required>
+          <input type="number" id="productStock" placeholder="Existencias" min="0" required>
+          <button type="submit">Agregar producto</button>
+        </form>
+      </div>
+
+      <!-- Administrador ventas -->
+      <div id="misventas" class="tab-content">
+         <div class="mis-ventas-header">
+           <h2>Mis Productos Publicados</h2>
+           <p>Administra los productos que has publicado para la venta</p>
+         </div>
+         <div class="products-grid" id="misVentasContainer"></div>
+      </div>
+      
+      <!-- Usuarios registdos-->
+      <div id="usuarios" class="tab-content">
+        <div class="usuarios-header">
+          <h2>Lista de Usuarios</h2>
+          <p>Administración de usuarios registrados en el sistema</p>
+        </div>
+        <div class="table-container">
+          <table id="usuariosTable">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Usuario</th>
+                <th>Email</th>
+                <th>Nombre</th>
+                <th>Superusuario</th>
+                <th>Fecha Registro</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+                <tbody>
+                 <!-- Usuarios recargados -->
+                </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <div class="legal-info">
+        <p>Información. Legales de desarrollo</p>
+        <p>Adrián Hernández © 2025</p>
+        <p>Shopy Registrado</p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <div class="social-links">
+        <a href="#" class="social-icon" target="_blank" aria-label="Facebook">
+          <img src="IMG/facebook.png" alt="TikTok" width="24">
+        </a>
+        <a href="#" class="social-icon" target="_blank" aria-label="TikTok">
+          <img src="IMG/tik-tok.png" alt="TikTok" width="24">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="legal-links">
+      <a href="#">Términos y condiciones</a>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Aviso legal</a>
+      <a href="#">Política de cookies</a>
+    </div>
+    <p class="copyright">© 2025 Tienda Online. Todos los derechos reservados.</p>
+  </div>
+</footer>
+ 
+
+  <script src="JS/jshome.js"></script>
+</body>
+</html>

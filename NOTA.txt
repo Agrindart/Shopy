@@ -1,0 +1,3 @@
+Abrir carpetas por separado en visual code de manera independiente Web y Api.
+Iniciar servidor con "node api.js"
+Probar

@@ -1,0 +1,110 @@
+[
+  {
+    "nombre": "Camisa de tirantes",
+    "descripcion": "Camisa de algodon, distintos colores.",
+    "imagen": "https://m.media-amazon.com/images/I/61KHu9EUCSL._AC_SX679_.jpg",
+    "precio": 68,
+    "existencias": 56,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:37:48.292Z",
+    "id": 6,
+    "usuario": "admin",
+    "usuarioId": 1
+  },
+  {
+    "nombre": "Lacoste Playera para Hombre",
+    "descripcion": "Tipo de tejido100% Algodón\nInstrucciones de cuidado del materialLavar a máquina\nTipo de cierrePull on\nEstilo de cuelloCuello en V",
+    "imagen": "https://m.media-amazon.com/images/I/51nh8bKE-zL._AC_SX679_.jpg",
+    "precio": 1320,
+    "existencias": 10,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:40:15.035Z",
+    "id": 7,
+    "usuario": "admin",
+    "usuarioId": 1
+  },
+  {
+    "nombre": "PUMA Teamcup - Pantalones",
+    "descripcion": "Tipo de tejido100% poliéster.\nTipo de cierreCordón ajustable\nEstilo de cinturaTiro medio",
+    "imagen": "https://m.media-amazon.com/images/I/51DL8ZvzhgL._AC_SX679_.jpg",
+    "precio": 1444,
+    "existencias": 8,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:43:07.868Z",
+    "id": 8,
+    "usuario": "admin",
+    "usuarioId": 1
+  },
+  {
+    "nombre": "Tenis Men's FuelCell 100 V2",
+    "descripcion": "Instrucciones de cuidado del materialLavar a máquina\nMaterial de la suelaCaucho\nMaterial exteriorEtilvinilacetato (EVA)\nTipo de cierreCordones",
+    "imagen": "https://m.media-amazon.com/images/I/71ivRfwLFHL._AC_SY575_.jpg",
+    "precio": 1600,
+    "existencias": 10,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:44:47.533Z",
+    "id": 9,
+    "usuario": "admin",
+    "usuarioId": 1
+  },
+  {
+    "nombre": "Nike Deportivo Jersey",
+    "descripcion": "Tipo de tejido 100% poliéster\nTipo de cierreSin cordones\nEstilo de cuelloCuello crew",
+    "imagen": "https://m.media-amazon.com/images/I/51SAjeWZ2jL._AC_SY741_.jpg",
+    "precio": 494,
+    "existencias": 16,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:46:05.212Z",
+    "id": 10,
+    "usuario": "admin",
+    "usuarioId": 1
+  },
+  {
+    "nombre": "Apple iPhone 13, 128GB, Azul",
+    "descripcion": "Marca: Apple\nSistema operativo: iOS 16\nRAM: 6 GB\nCPU: A13 Bionic de Apple\nMemoria: 128 GB\nTamaño de la pantalla 6,1 Pulgadas\nResolución\t1920 x 1080\nNombre del modelo: 13",
+    "imagen": "https://m.media-amazon.com/images/I/518rwCXZ0SL._AC_SX522_.jpg",
+    "precio": 6500,
+    "existencias": 8,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:49:35.644Z",
+    "id": 11,
+    "usuario": "admin",
+    "usuarioId": 1
+  },
+  {
+    "nombre": "Minecraft - Standard Edition",
+    "descripcion": "Videojuego para Nintendo Switch,\nConstruye todo lo que puedas imaginar en el modo Creativo, o realiza grandes expediciones en Survival a través de tierras misteriosas y en las profundidades de sus propios mundos infinitos\nDescubre creaciones comunitarias y comparte la aventura con amigos en diferentes plataformas",
+    "imagen": "https://m.media-amazon.com/images/I/81p2yT3GJIL._AC_SY741_.jpg",
+    "precio": 689,
+    "existencias": 16,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:52:17.012Z",
+    "id": 12,
+    "usuario": "admin",
+    "usuarioId": 1
+  },
+  {
+    "nombre": "Nintendo Switch OLED",
+    "descripcion": "Soporte ajustable y amplio - Ajusta el soporte para encontrar ángulo de vista en el modo semiportátil\n64 GB de almacenamiento interno - Guarda los juegos en tu consola con 64 GB de almacenamiento interno\nAudio mejorado - Disfruta de un audio superior en los modos portátil y semiportátil con los altavoces de la consola\nPantalla OLED de 7 pulgadas (17.78 cm) - Disfruta de colores brillantes y contrastes definidos en una pantalla.",
+    "imagen": "https://m.media-amazon.com/images/I/71-wWSAhXfL._AC_SX679_.jpg",
+    "precio": 5275,
+    "existencias": 28,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:53:41.812Z",
+    "id": 13,
+    "usuario": "admin",
+    "usuarioId": 1
+  },
+  {
+    "nombre": "Bicicleta Plegable 7 Velocidad",
+    "descripcion": "Tipo de bicicleta\tBicicleta plegable\nRango de edad (descripción)\tAdulto\nMarca\tRACK & PACK\nNúmero de velocidades\t7\nColor\tNegro\nTamaño de la rueda\t2E+1 Pulgadas\nTipo de suspensión\tparte delantera\nComponentes incluidos\t- Bicicleta semi armada con rueda trasera - Manubrio - Asiento - Rueda delantera - Salpicadera - Pedales- Bicicleta semi armada con rueda trasera - Manubrio - Asiento - Rueda delantera - Salpicadera - Pedales\nTamaño\tM\nEstilo de freno\tV Break",
+    "imagen": "https://m.media-amazon.com/images/I/619M4apnprL._AC_SX679_.jpg",
+    "precio": 2459,
+    "existencias": 5,
+    "vendedor": "admin",
+    "fechaCreacion": "2025-05-19T20:55:31.044Z",
+    "id": 14,
+    "usuario": "admin",
+    "usuarioId": 1
+  }
+]

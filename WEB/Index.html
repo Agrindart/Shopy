@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="CSS/style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Buscar producto...">
+      <button id="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="nav-links">
+      <a href="login.html" class="nav-link"><i class="fas fa-user"></i> Identifícate</a>
+      <a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> Acerca de nosotros</a>
+    </div>
+  </div>
+</nav>
+
+ <!-- Banner superior -->
+  <div class="banner">
+    <img src="IMG/Banner.png" alt="Banner de la tienda">
+  </div>
+
+
+  <main class="main-content">
+    <aside class="sidebar">
+      <div class="filter-section">
+        <h3>Filtrar productos</h3>
+        <div class="search-container">
+          <input type="text" id="filter-search" placeholder="Buscar producto...">
+          <button id="filter-search-btn"><i class="fas fa-search"></i> Buscar</button>
+        </div>
+        <button id="price-high" class="filter-btn"><i class="fas fa-arrow-up"></i> Precio más alto</button>
+        <button id="price-low" class="filter-btn"><i class="fas fa-arrow-down"></i> Precio más bajo</button>
+      </div>
+    </aside>
+  
+    <section class="products-section">
+      <div id="productos-container" class="productos-grid"></div>
+      
+      <div class="load-more-container">
+        <button id="load-more" class="load-more-btn">
+          <i class="fas fa-plus-circle"></i> Cargar más productos
+        </button>
+      </div>
+    </section>
+  </main>
+
+    <!-- Pie de página -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <div class="legal-info">
+        <p>Información. Legales de desarrollo</p>
+        <p>Adrián Hernández © 2025</p>
+        <p>Shopy Registrado</p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <div class="social-links">
+        <a href="#" class="social-icon" target="_blank" aria-label="Facebook">
+          <img src="IMG/facebook.png" alt="TikTok" width="24">
+        </a>
+        <a href="#" class="social-icon" target="_blank" aria-label="TikTok">
+          <img src="IMG/tik-tok.png" alt="TikTok" width="24">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="legal-links">
+      <a href="#">Términos y condiciones</a>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Aviso legal</a>
+      <a href="#">Política de cookies</a>
+    </div>
+    <p class="copyright">© 2025 Tienda Online. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+  <script src="JS/jsindex.js"></script>
+</body>
+</html>
